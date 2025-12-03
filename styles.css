@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, "PingFang SC", sans-serif;
+}
+
+body {
+  background: #f9fbff;
+  color: #222;
+}
+
+/* 顶部导航栏 */
+.navbar {
+  width: 100%;
+  padding: 16px 40px;
+  background-color: #0b74ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.navbar-left {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 28px;
+  font-size: 16px;
+}
+
+.navbar-right a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 主视觉区域 */
+.hero {
+  text-align: center;
+  padding: 100px 20px 80px;
+}
+
+.hero-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #0b1633;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  color: #495062;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 16px 36px;
+  font-size: 20px;
+  background-color: #0b74ff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.hero-btn:hover {
+  background-color: #0059d9;
+}
+
+/* 功能简介 */
+.features {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.features h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  margin-top: 80px;
+  background-color: #f2f4f8;
+  padding: 30px;
+  text-align: center;
+  color: #555;
+}
+
+footer a {
+  margin: 0 12px;
+  color: #0b74ff;
+  text-decoration: none;
+  font-size: 16px;
+}
