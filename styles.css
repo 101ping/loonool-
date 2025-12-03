@@ -39,6 +39,129 @@ body {
   cursor: pointer;
 }
 
+/* 登录表单容器 */
+.login-container {
+  width: 100%;
+  max-width: 420px;
+  margin: 80px auto;
+  background: #fff;
+  padding: 40px 36px;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+}
+
+.login-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #0b1633;
+}
+
+.input-group {
+  margin-bottom: 22px;
+}
+
+.input-label {
+  font-size: 15px;
+  margin-bottom: 6px;
+  color: #333;
+  display: block;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1.5px solid #d6d8df;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.input-field:focus {
+  border-color: #0b74ff;
+  box-shadow: 0 0 0 3px rgba(11, 116, 255, 0.15);
+}
+
+/* 错误提示区域（预留） */
+.error-box {
+  color: #e54848;
+  font-size: 14px;
+  margin-bottom: 16px;
+  min-height: 20px;
+}
+
+/* 登录按钮 */
+.login-btn {
+  width: 100%;
+  padding: 14px 0;
+  font-size: 18px;
+  background-color: #0b74ff;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.login-btn:hover {
+  background-color: #0059d9;
+}
+
+/* 注册跳转 */
+.signup-link {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.signup-link a {
+  color: #0b74ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, "PingFang SC", sans-serif;
+}
+
+body {
+  background: #f9fbff;
+  color: #222;
+}
+
+/* 顶部导航栏 */
+.navbar {
+  width: 100%;
+  padding: 16px 40px;
+  background-color: #0b74ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.navbar-left {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 28px;
+  font-size: 16px;
+}
+
+.navbar-right a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* 主视觉区域 */
 .hero {
   text-align: center;
