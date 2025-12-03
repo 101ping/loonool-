@@ -1,3 +1,7 @@
+// 目前 Help Center 只是静态 FAQ 展示
+// 未来如果需要做“点击问题展开 / 收起答案”等交互，可以在这里实现
+
+console.log("Help Center page loaded.");
 // 获取登录按钮
 const loginButton = document.getElementById("loginButton");
 
