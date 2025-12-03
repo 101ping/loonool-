@@ -2,6 +2,111 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
+  <title>Help - LOONOOL</title>
+  <!-- 外部样式文件 -->
+  <link rel="stylesheet" href="help.css">
+</head>
+
+<body>
+
+  <!-- 顶部导航栏 -->
+  <header class="navbar">
+    <div class="navbar-left">LOONOOL · 图片审核空间</div>
+
+    <nav class="navbar-right">
+      <a href="/index.html">Home</a>
+      <a href="/login.html">Login</a>
+      <a href="/signup.html">Sign Up</a>
+      <a href="/help.html">Help</a>
+    </nav>
+  </header>
+
+  <!-- 帮助中心主体 -->
+  <main class="help-container">
+    <h1 class="help-title">帮助中心 · 常见问题（FAQ）</h1>
+    <p class="help-subtitle">
+      这里是 LOONOOL 的基础说明，用来帮助你理解「图片审核空间」是做什么的，以及每个模块的作用。
+    </p>
+
+    <!-- FAQ 列表 -->
+    <section class="faq-section">
+
+      <article class="faq-item">
+        <h2 class="faq-question">1. 什么是图片审核空间？</h2>
+        <p class="faq-answer">
+          图片审核空间是一个团队协作的工作区，你可以在这里上传候选图片、讨论每一张图的优缺点、
+          使用 AI 工具生成审核依据，并最终选出可放心使用的最终图片（Final）。
+        </p>
+      </article>
+
+      <article class="faq-item">
+        <h2 class="faq-question">2. 什么是任务（Task）？</h2>
+        <p class="faq-answer">
+          一个任务（Task）代表一组需要一起审核的图片，例如同一款产品的多张主图候选。
+          每个 Task 最多可以容纳 6 张候选图片，并可以为该 Task 选出一张最终图片（Final）。
+        </p>
+      </article>
+
+      <article class="faq-item">
+        <h2 class="faq-question">3. 为什么一个任务最多只能放 6 张图片？</h2>
+        <p class="faq-answer">
+          为了避免一次性比较过多图片造成决策疲劳，LOONOOL 将每个 Task 限制为最多 6 张候选图。
+          当你尝试加入第 7 张图片时，系统会自动为你创建新的 Task，保持每个任务的审核节奏清晰。
+        </p>
+      </article>
+
+      <article class="faq-item">
+        <h2 class="faq-question">4. 什么是审核依据（Evidence）？</h2>
+        <p class="faq-answer">
+          审核依据（Evidence）是你在做图片决策时用到的所有“证据”，包括：
+          AI 分析结果、平台规则文档、竞品截图、外部链接等。
+          Evidence 会集中展示在右侧的 Evidence 区域，形成完整的决策链条。
+        </p>
+      </article>
+
+      <article class="faq-item">
+        <h2 class="faq-question">5. 如何使用上传证据（Add Evidence）？</h2>
+        <p class="faq-answer">
+          在审核空间右侧的「Add Evidence」区域，你可以上传图片、PDF / 文档，或添加外部链接。
+          这些内容会作为 Evidence 卡片出现在 Evidence 列表中，并同步写入讨论区的系统消息。
+        </p>
+      </article>
+
+      <article class="faq-item">
+        <h2 class="faq-question">6. 分析工具（Analysis Tools）有什么用？</h2>
+        <p class="faq-answer">
+          分析工具是基于 AI 的辅助决策工具，例如：风险分析、风格分析、市场参考等。
+          你可以针对当前 Task 中的图片运行这些工具，并将分析结果保存为 Evidence，纳入审核证据链。
+        </p>
+      </article>
+
+      <article class="faq-item">
+        <h2 class="faq-question">7. 如何导出结果？</h2>
+        <p class="faq-answer">
+          在审核空间左侧的「Export Results」按钮，可以导出当前 Space 中所有已经选出最终图片（Final）的任务。
+          导出形式为一个 zip 包，每个 Task 一个文件夹，文件夹内包含该任务的最终图片。
+        </p>
+      </article>
+
+      <article class="faq-item">
+        <h2 class="faq-question">8. 如何分享证据给外部？</h2>
+        <p class="faq-answer">
+          每条 Evidence 都可以生成一个在线预览链接（Evidence Preview）。
+          你可以将该链接分享给外部同事或合作方，对方可以只读查看这条证据的详情。
+        </p>
+      </article>
+
+    </section>
+  </main>
+
+  <!-- 引入外部脚本文件（目前只做占位） -->
+  <script src="help.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
   <title>Login - LOONOOL</title>
   <!-- 引入外部样式文件 -->
   <link rel="stylesheet" href="login.css">
