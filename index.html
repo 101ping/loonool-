@@ -1,6 +1,57 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+  <meta charset="UTF-8" />
+  <title>Login - LOONOOL</title>
+  <!-- 引入外部样式文件 -->
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+  <!-- 顶部导航栏 -->
+  <header class="navbar">
+    <div class="navbar-left">LOONOOL · 图片审核空间</div>
+
+    <nav class="navbar-right">
+      <a href="/login.html">Login</a>
+      <a href="/signup.html">Sign Up</a>
+      <a href="/help.html">Help</a>
+    </nav>
+  </header>
+
+  <!-- 登录表单 -->
+  <div class="login-container">
+    <h2 class="login-title">登录 Login</h2>
+
+    <!-- 错误提示区域（预留，无逻辑） -->
+    <div class="error-box"></div>
+
+    <div class="input-group">
+      <label class="input-label">邮箱 Email</label>
+      <input class="input-field" type="email" placeholder="请输入邮箱">
+    </div>
+
+    <div class="input-group">
+      <label class="input-label">密码 Password</label>
+      <input class="input-field" type="password" placeholder="请输入密码">
+    </div>
+
+    <button class="login-btn" id="loginButton">登录</button>
+
+    <div class="signup-link">
+      还没有账号？<a href="/signup.html">注册 Sign Up</a>
+    </div>
+  </div>
+
+  <!-- 引入外部 JS 文件 -->
+  <script src="login.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
   <meta charset="UTF-8">
   <title>LOONOOL · 图片审核空间</title>
   <!-- 外部样式文件 -->
