@@ -10,6 +10,115 @@ body {
   color: #222;
 }
 
+/* 顶部导航栏（与其他页面保持一致） */
+.navbar {
+  width: 100%;
+  padding: 16px 40px;
+  background-color: #0b74ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.navbar-left {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 28px;
+  font-size: 16px;
+}
+
+.navbar-right a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 主体容器 */
+.help-container {
+  max-width: 900px;
+  margin: 40px auto 60px;
+  padding: 0 20px;
+}
+
+/* 标题和副标题 */
+.help-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #0b1633;
+}
+
+.help-subtitle {
+  font-size: 15px;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+/* FAQ 区域 */
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faq-item {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 16px 18px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
+  border: 1px solid #e5e7eb;
+}
+
+.faq-question {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #111827;
+}
+
+.faq-answer {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.7;
+}
+
+/* 响应式简单适配 */
+@media (max-width: 600px) {
+  .navbar {
+    padding: 12px 16px;
+  }
+
+  .navbar-left {
+    font-size: 18px;
+  }
+
+  .navbar-right {
+    gap: 16px;
+    font-size: 14px;
+  }
+
+  .help-title {
+    font-size: 22px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, "PingFang SC", sans-serif;
+}
+
+body {
+  background: #f9fbff;
+  color: #222;
+}
+
 /* 顶部导航栏 */
 .navbar {
   width: 100%;
